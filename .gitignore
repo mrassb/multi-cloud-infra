@@ -1,0 +1,20 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.log
+*.backup
+*.tfvars
+.crash
+
+# Fichiers sensibles
+*.pem
+*.key
+*.crt
+*.csv
+
+# Systèmes et éditeurs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
